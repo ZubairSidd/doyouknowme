@@ -20,3 +20,26 @@ function play(question, answer)
   log('Your score is: ' + score)
   log('------------------------')
 }
+
+question = [
+    {
+    'question':'Who is my fav superhero?',
+    'answer': 'thor'
+    },
+    {
+      'question':'Which is fav sad song?',
+      'answer': 'see you again'
+    },
+    {
+      'question':'How old am I?',
+      'answer': '20'
+    },
+    {
+      'question':'Where do I live?',
+      'answer': 'mumbai'
+    },
+    {
+      'question':'fav movie',
+      'answer': 'infinity wars'
+    }
+  ]
