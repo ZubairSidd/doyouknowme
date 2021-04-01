@@ -42,12 +42,12 @@ question = [
       'question':'fav movie',
       'answer': 'infinity wars'
     }
-  ]
+]
 
-  for (var i = 0; i < question.length; i++)
-  {
-    log('Here is your question ' + (i+1) + '\n')
-    play(question[i]['question'], question[i]['answer'])
-  }
+for (var i = 0; i < question.length; i++)
+{
+log('Here is your question ' + (i+1) + '\n')
+play(question[i]['question'], question[i]['answer'])
+}
   
-  log('Your Total Score is: ' + score)
+log('Your Total Score is: ' + score)
